@@ -1,0 +1,7 @@
+INSTALLATION NOTES
+
+1. Create a new Unity Project
+2. Download and Import fresh version of Playmaker
+3. Import Pistol Animset Pro
+6. Unzip and copy the contents of PistolAnimsetPro\ProjectSettings_UnzipAndReplace\ProjectSettings.zip to ProjectSettings\ folder.
+7. Enjoy

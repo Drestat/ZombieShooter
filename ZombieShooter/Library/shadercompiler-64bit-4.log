@@ -1,0 +1,102 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-4-687120384
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=11599 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=11246 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _EMISSION VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=9641 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=9641 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=982 outsize=10108 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=982 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON _EMISSION ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=5976 kw=DIRECTIONAL_COOKIE SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=6609 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=7093 kw=SPOT SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=6213 kw=POINT_COOKIE SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=6237 kw=DIRECTIONAL SHADOWS_SCREEN _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=938 outsize=7159 kw=SPOT SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_NATIVE _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=SPOT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=POINT SHADOWS_CUBE SHADOWS_SOFT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=SPOT SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=938 outsize=6 kw=SPOT SHADOWS_DEPTH SHADOWS_SOFT SHADOWS_NATIVE _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=751 outsize=487 kw=SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1152 outsize=8230 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON _EMISSION ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1152 outsize=8395 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1152 outsize=8023 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON UNITY_HDR_ON _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1152 outsize=6 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1152 outsize=6 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1152 outsize=6 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON _EMISSION UNITY_HDR_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=886 outsize=9997 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=886 outsize=9997 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=886 outsize=10111 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON _EMISSION ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=886 outsize=10111 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON _EMISSION VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=886 outsize=6491 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=886 outsize=6922 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=886 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=886 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _EMISSION ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=886 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=816 outsize=4885 kw=POINT_COOKIE SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=816 outsize=5347 kw=SPOT SHADOWS_DEPTH SHADOWS_NATIVE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=816 outsize=4857 kw=POINT SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=816 outsize=4945 kw=POINT_COOKIE SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=816 outsize=5249 kw=DIRECTIONAL_COOKIE SHADOWS_SCREEN _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=816 outsize=6 kw=SPOT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=816 outsize=6 kw=DIRECTIONAL SHADOWS_SCREEN ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=816 outsize=6 kw=POINT SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=816 outsize=6 kw=DIRECTIONAL_COOKIE SHADOWS_OFF _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=816 outsize=6 kw=POINT SHADOWS_CUBE _ALPHABLEND_ON ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=600 outsize=487 kw=SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=600 outsize=6 kw=SHADOWS_CUBE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=530 outsize=3287 kw=_EMISSION ok=1
+End of pipe
+
+Quitting shader compiler process

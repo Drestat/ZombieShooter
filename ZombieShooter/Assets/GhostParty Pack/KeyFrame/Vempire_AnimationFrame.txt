@@ -1,0 +1,10 @@
+Idle			0-60
+Walk			110-142
+Run			200-224
+JumpUp			280-290
+JumpDown		290-306
+JumpLoop		360-390
+Attack			440-474
+Attack2			530-556
+TakeDamage		610-633
+Death			690-741

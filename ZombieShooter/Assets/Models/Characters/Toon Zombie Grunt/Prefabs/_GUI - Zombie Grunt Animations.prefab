@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: _GUI - Zombie Grunt Animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.574310482, y: 2.37775254, z: -2.30665636}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f2d588e4ee6e2341be06551db202c62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
+  _animations:
+  - 4a756d70203036
+  - 57616c6b204261636b203031
+  - 57616c6b203036
+  - 57616c6b2030382048756e63686564
+  - 4a756d70203033
+  - 57616c6b2031302048757274
+  - 4368756262792030312057616c6b204261636b
+  - 437261776c203031
+  - 5475726e203031
+  - 49646c65203031
+  - 49646c65203032
+  - 52756e2030342053746f70
+  - 436861726765203031
+  - 46616c6c203033
+  - 57616c6b203132204372656570696e67
+  - 52756e203037205765697264
+  - 57616c6b203135205369636b205a6f6d626965
+  _crossFade: 0
+  maxButtons: 6
+  removeTextFromButton: 
+  autoChangeDelay: 0
+  image: {fileID: 0}
+  _lastAnim: 
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c2e251aa8f80514787057fd81ee51bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _prefabs:
+  - {fileID: 100018, guid: f443bd3b7267a0b40b2fcb775d384760, type: 2}
+  - {fileID: 100068, guid: a72f897e45bf4d24e8b197fda6da0c64, type: 2}
+  - {fileID: 100000, guid: 22022adc335e2f941abf2781d8174fb9, type: 2}
+  - {fileID: 100036, guid: 82429611105d0b448bfc05721169904a, type: 2}
+  - {fileID: 100042, guid: 24264c23065a1734490c04256d44ab6c, type: 2}
+  maxButtons: 3
+  spawnOnAwake: 1
+  removeTextFromButton: 546f6f6e
+  _guiPosOffset: {x: 0, y: 150}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1

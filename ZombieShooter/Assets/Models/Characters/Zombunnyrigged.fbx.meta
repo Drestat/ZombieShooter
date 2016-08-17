@@ -1,0 +1,911 @@
+fileFormatVersion: 2
+guid: c0905cfc8275243a1bd2c7a7f130a890
+timeCreated: 1440788661
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Ctrl_Grp
+    100002: Head
+    100004: HeadEnd
+    100006: Hips
+    100008: LeftEar
+    100010: LeftEarEnd
+    100012: LeftFoot
+    100014: LeftFootEnd
+    100016: LeftLeg
+    100018: LeftLowerArm
+    100020: LeftLowerArmFK
+    100022: LeftLowerArmIK
+    100024: LeftUpperArm
+    100026: LeftUpperArmFK
+    100028: LeftUpperArmIK
+    100030: LeftWrist
+    100032: LeftWristEnd
+    100034: LeftWristFK
+    100036: LeftWristIK
+    100038: RightEar
+    100040: RightEarEnd
+    100042: RightFoot
+    100044: RightFootEnd
+    100046: RightLeg
+    100048: RightLowerArm
+    100050: RightLowerArmFK
+    100052: RightLowerArmIK
+    100054: RightUpperArm
+    100056: RightUpperArmFK
+    100058: RightUpperArmIK
+    100060: RightWrist
+    100062: RightWristEnd
+    100064: RightWristFK
+    100066: RightWristIK
+    100068: Root
+    100070: Spine
+    100072: Zombunny
+    100074: //RootNode
+    400000: Ctrl_Grp
+    400002: Head
+    400004: HeadEnd
+    400006: Hips
+    400008: LeftEar
+    400010: LeftEarEnd
+    400012: LeftFoot
+    400014: LeftFootEnd
+    400016: LeftLeg
+    400018: LeftLowerArm
+    400020: LeftLowerArmFK
+    400022: LeftLowerArmIK
+    400024: LeftUpperArm
+    400026: LeftUpperArmFK
+    400028: LeftUpperArmIK
+    400030: LeftWrist
+    400032: LeftWristEnd
+    400034: LeftWristFK
+    400036: LeftWristIK
+    400038: RightEar
+    400040: RightEarEnd
+    400042: RightFoot
+    400044: RightFootEnd
+    400046: RightLeg
+    400048: RightLowerArm
+    400050: RightLowerArmFK
+    400052: RightLowerArmIK
+    400054: RightUpperArm
+    400056: RightUpperArmFK
+    400058: RightUpperArmIK
+    400060: RightWrist
+    400062: RightWristEnd
+    400064: RightWristFK
+    400066: RightWristIK
+    400068: Root
+    400070: Spine
+    400072: Zombunny
+    400074: //RootNode
+    4300000: Zombunny
+    7400000: Move
+    7400002: Idle
+    7400004: Death
+    9500000: //RootNode
+    13700000: Zombunny
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "MuscleClip 'Zombunnyrigged' conversion warning: Bone
+      length is different in avatar and animation\n\n     'LeftLeg' : position error
+      = 324.897156 mm\n\n     'LeftFoot' : position error = 307.617065 mm\n\n     'RightLeg'
+      : position error = 260.709930 mm\n\n     'RightFoot' : position error = 136.483658
+      mm\n\nMuscleClip 'Zombunnyrigged'conversion warning: 'Ctrl_Grp/Root/Hips' has
+      translation animation. It is not supported.\n\nMuscleClip 'Zombunnyrigged'conversion
+      warning: 'Ctrl_Grp/Root/Hips/Spine' has translation animation. It is not supported.\n\nMuscleClip
+      'Zombunnyrigged'conversion warning: 'Ctrl_Grp/Root/Hips/Spine/Head' has translation
+      animation. It is not supported.\n\nMuscleClip 'Zombunnyrigged'conversion warning:
+      'Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot' has translation animation. It is not supported.\n\nMuscleClip
+      'Zombunnyrigged'conversion warning: 'Ctrl_Grp/Root/Hips/RightLeg/RightFoot'
+      has translation animation. It is not supported.\n\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Move
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ctrl_Grp
+        weight: 1
+      - path: Ctrl_Grp/Root
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot/LeftFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot/RightFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/HeadEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar/LeftEarEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar/RightEarEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist/LeftWristEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK/LeftWristFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK/LeftWristIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist/RightWristEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK/RightWristFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK/RightWristIK
+        weight: 1
+      - path: Zombunny
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 280
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ctrl_Grp
+        weight: 1
+      - path: Ctrl_Grp/Root
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot/LeftFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot/RightFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/HeadEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar/LeftEarEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar/RightEarEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist/LeftWristEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK/LeftWristFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK/LeftWristIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist/RightWristEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK/RightWristFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK/RightWristIK
+        weight: 1
+      - path: Zombunny
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 285
+      lastFrame: 320
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: .333863825
+        functionName: StartSinking
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ctrl_Grp
+        weight: 1
+      - path: Ctrl_Grp/Root
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot/LeftFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot/RightFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/HeadEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar/LeftEarEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar/RightEarEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist/LeftWristEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK/LeftWristFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK/LeftWristIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist/RightWristEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK/RightWristFK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK/RightWristIK
+        weight: 1
+      - path: Zombunny
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Ctrl_Grp
+        weight: 1
+      - path: Ctrl_Grp/Root
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/LeftLeg/LeftFoot/LeftFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/RightLeg/RightFoot/RightFootEnd
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/HeadEnd
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/LeftEar/LeftEarEnd
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/Head/RightEar/RightEarEnd
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArm/LeftLowerArm/LeftWrist/LeftWristEnd
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmFK/LeftLowerArmFK/LeftWristFK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/LeftUpperArmIK/LeftLowerArmIK/LeftWristIK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist
+        weight: 1
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArm/RightLowerArm/RightWrist/RightWristEnd
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmFK/RightLowerArmFK/RightWristFK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK
+        weight: 0
+      - path: Ctrl_Grp/Root/Hips/Spine/RightUpperArmIK/RightLowerArmIK/RightWristIK
+        weight: 0
+      - path: Zombunny
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFoot
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFoot
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hips
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftUpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightUpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftLowerArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightLowerArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftWrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightWrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftEar
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightEar
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftFootEnd
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightFootEnd
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Zombunnyrigged(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Ctrl_Grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Root
+      position: {x: 0, y: .0811861604, z: -.133232012}
+      rotation: {x: 0, y: 0, z: -.707106829, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips
+      position: {x: -.268395156, y: .00340064359, z: .00025972724}
+      rotation: {x: .540819705, y: .480285197, z: -.484686404, w: -.491852909}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLeg
+      position: {x: -.177000001, y: .0130000003, z: -.0199999996}
+      rotation: {x: .976894796, y: -.0023925493, z: .145119384, w: -.156879529}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftFoot
+      position: {x: -.0590000004, y: .0850000009, z: .256000012}
+      rotation: {x: -.214513406, y: -.0875783935, z: .0595276952, w: .970963717}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftFootEnd
+      position: {x: 7.29076793e-17, y: 0, z: .0599848554}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLeg
+      position: {x: .171000004, y: -.0140000004, z: .00700000022}
+      rotation: {x: -.0281111971, y: -.0152725819, z: -.0033105975, w: .999482691}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightFoot
+      position: {x: .00899999961, y: .0359999985, z: -.270999998}
+      rotation: {x: -.0181462355, y: -.0356261618, z: .0270625968, w: .998833954}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightFootEnd
+      position: {x: -9.41469074e-16, y: -3.4134402e-07, z: -.0599855408}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: -.0120000001, y: 0, z: .193000004}
+      rotation: {x: .0636877418, y: -.0104583725, z: -.0483704098, w: .996742129}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -.000995242968, y: .0200093538, z: .229026631}
+      rotation: {x: .100648239, y: -.0249568578, z: .0272450335, w: .994235814}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: HeadEnd
+      position: {x: -.0396341607, y: -.0864001885, z: .578013957}
+      rotation: {x: .118906222, y: -.0596476197, z: .0345506556, w: .990509868}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftEar
+      position: {x: -.326999992, y: .0700000003, z: .407999992}
+      rotation: {x: -.223818749, y: -.47029075, z: -.070923686, w: .850706518}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftEarEnd
+      position: {x: .0670000017, y: -0, z: .531000018}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightEar
+      position: {x: .339664996, y: .0694510937, z: .409042537}
+      rotation: {x: .923246205, y: .0418992974, z: -.27540797, w: .264596611}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightEarEnd
+      position: {x: -.0829999968, y: -0, z: -.578000009}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftUpperArm
+      position: {x: -.166999996, y: .00700000022, z: .179000005}
+      rotation: {x: -.0389112197, y: -.713494241, z: .0698588639, w: .696083188}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLowerArm
+      position: {x: 1.9359868e-06, y: 1.84384407e-06, z: .25116384}
+      rotation: {x: .00994744617, y: -.00114718569, z: .0081460895, w: .999916732}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWrist
+      position: {x: -3.89922935e-16, y: -1.26217742e-31, z: .238028452}
+      rotation: {x: 0, y: .0141496025, z: -0, w: .999899924}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWristEnd
+      position: {x: 9.32651435e-17, y: 6.3108871e-32, z: .10998556}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftUpperArmFK
+      position: {x: -.172865421, y: .0691770837, z: .191902742}
+      rotation: {x: .37360093, y: -.648828566, z: .358728439, w: .557456493}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLowerArmFK
+      position: {x: 1.52853167e-17, y: 1.57772178e-32, z: .251161069}
+      rotation: {x: .0115760695, y: .0296238568, z: .00839632098, w: .999458849}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWristFK
+      position: {x: -3.89922935e-16, y: -1.26217742e-31, z: .238028452}
+      rotation: {x: 0, y: .0141496025, z: -0, w: .999899924}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftUpperArmIK
+      position: {x: -.172865421, y: .0691770837, z: .191902742}
+      rotation: {x: .884978652, y: .0215384383, z: -.464954793, w: .0128811337}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftLowerArmIK
+      position: {x: 1.52853167e-17, y: 1.57772178e-32, z: .251161069}
+      rotation: {x: -1.63926081e-28, y: -2.83136558e-07, z: 1.17904799e-31, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: LeftWristIK
+      position: {x: -3.89922935e-16, y: -1.26217742e-31, z: .238028452}
+      rotation: {x: -.160602435, y: .010572996, z: .984830678, w: -.0648347884}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpperArm
+      position: {x: .178000003, y: .0199999996, z: .180999994}
+      rotation: {x: -.733923018, y: .0518544391, z: .675631881, w: -.0467935689}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLowerArm
+      position: {x: 2.13162816e-16, y: -3.5527136e-17, z: -.251161009}
+      rotation: {x: -.0197119284, y: -.0335830711, z: -.00686069811, w: .999217987}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWrist
+      position: {x: 1.42108544e-16, y: -6.21724896e-17, z: -.238029003}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWristEnd
+      position: {x: 7.1054272e-17, y: -2.6645352e-17, z: -.109984994}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpperArmFK
+      position: {x: .172865003, y: .0691770986, z: .191902727}
+      rotation: {x: -.536353946, y: .457762301, z: .623751104, w: .337213159}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLowerArmFK
+      position: {x: 2.13162816e-16, y: -3.5527136e-17, z: -.251161009}
+      rotation: {x: -.0197119284, y: -.0335830711, z: -.00686069811, w: .999217987}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWristFK
+      position: {x: 1.42108544e-16, y: -6.21724896e-17, z: -.238029003}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightUpperArmIK
+      position: {x: .172865003, y: .0691770986, z: .191902727}
+      rotation: {x: .126082167, y: -.559749842, z: -.0132071665, w: .818907201}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightLowerArmIK
+      position: {x: 2.13162816e-16, y: -3.5527136e-17, z: -.251161009}
+      rotation: {x: -4.46321209e-14, y: -.48546949, z: -2.47707704e-14, w: .874253631}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWristIK
+      position: {x: 1.42108544e-16, y: -6.21724896e-17, z: -.238029003}
+      rotation: {x: .157288045, y: -.0154862227, z: .982679844, w: -.0967523605}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Zombunny
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
